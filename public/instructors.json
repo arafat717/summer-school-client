@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "instructorName": "John Doe",
+        "studentNumbers": 30,
+        "img": "https://images.pexels.com/photos/5383544/pexels-photo-5383544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 2,
+        "instructorName": "Jane Smith",
+        "studentNumbers": 25,
+        "img": "https://images.pexels.com/photos/6455775/pexels-photo-6455775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 3,
+        "instructorName": "Michael Johnson",
+        "studentNumbers": 20,
+        "img": "https://images.pexels.com/photos/6325952/pexels-photo-6325952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 4,
+        "instructorName": "Emily Davis",
+        "studentNumbers": 15,
+        "img": "https://images.pexels.com/photos/6455775/pexels-photo-6455775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 5,
+        "instructorName": "David Wilson",
+        "studentNumbers": 18,
+        "img": "https://images.pexels.com/photos/5383544/pexels-photo-5383544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 6,
+        "instructorName": "Sarah Thompson",
+        "studentNumbers": 22,
+        "img": "https://images.pexels.com/photos/6538916/pexels-photo-6538916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]

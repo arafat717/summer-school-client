@@ -1,0 +1,114 @@
+[
+    {
+        "sport": "Football",
+        "photo": "https://images.pexels.com/photos/16670911/pexels-photo-16670911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "John Smith",
+        "seats_available": 10,
+        "price": 50
+    },
+    {
+        "sport": "Basketball",
+        "photo": "https://images.pexels.com/photos/10643696/pexels-photo-10643696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Sarah Johnson",
+        "seats_available": 8,
+        "price": 40
+    },
+    {
+        "sport": "Tennis",
+        "photo": "https://images.pexels.com/photos/346776/pexels-photo-346776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Michael Davis",
+        "seats_available": 5,
+        "price": 30
+    },
+    {
+        "sport": "Swimming",
+        "photo": "https://images.pexels.com/photos/8224687/pexels-photo-8224687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Emily Wilson",
+        "seats_available": 15,
+        "price": 60
+    },
+    {
+        "sport": "Golf",
+        "photo": "https://images.pexels.com/photos/6180458/pexels-photo-6180458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "David Thompson",
+        "seats_available": 4,
+        "price": 70
+    },
+    {
+        "sport": "Cricket",
+        "photo": "https://images.pexels.com/photos/3628912/pexels-photo-3628912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "James Anderson",
+        "seats_available": 12,
+        "price": 45
+    },
+    {
+        "sport": "Rugby",
+        "photo": "https://images.pexels.com/photos/16670911/pexels-photo-16670911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Olivia Brown",
+        "seats_available": 6,
+        "price": 55
+    },
+    {
+        "sport": "Baseball",
+        "photo": "https://images.pexels.com/photos/10643696/pexels-photo-10643696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Daniel Martinez",
+        "seats_available": 10,
+        "price": 40
+    },
+    {
+        "sport": "Volleyball",
+        "photo": "https://images.pexels.com/photos/346776/pexels-photo-346776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Sophia Lewis",
+        "seats_available": 8,
+        "price": 35
+    },
+    {
+        "sport": "Badminton",
+        "photo": "https://images.pexels.com/photos/8224687/pexels-photo-8224687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Alexander Johnson",
+        "seats_available": 6,
+        "price": 25
+    },
+    {
+        "sport": "Hockey",
+        "photo": "https://images.pexels.com/photos/346776/pexels-photo-346776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Mia Davis",
+        "seats_available": 10,
+        "price": 50
+    },
+    {
+        "sport": "Soccer",
+        "photo": "https://images.pexels.com/photos/16670911/pexels-photo-16670911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "William Wilson",
+        "seats_available": 15,
+        "price": 45
+    },
+    {
+        "sport": "Table Tennis",
+        "photo": "https://images.pexels.com/photos/10643696/pexels-photo-10643696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Samantha Taylor",
+        "seats_available": 4,
+        "price": 20
+    },
+    {
+        "sport": "Running",
+        "photo": "https://images.pexels.com/photos/346776/pexels-photo-346776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Christopher Brown",
+        "seats_available": 20,
+        "price": 30
+    },
+    {
+        "sport": "Gymnastics",
+        "photo": "https://images.pexels.com/photos/10643696/pexels-photo-10643696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Emma Johnson",
+        "seats_available": 6,
+        "price": 55
+    },
+    {
+        "sport": "Cycling",
+        "photo": "https://images.pexels.com/photos/16670911/pexels-photo-16670911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "instructor": "Jacob Davis",
+        "seats_available": 6,
+        "price": 55
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Soccer",
+        "studentNumbers": 30,
+        "img": "https://images.pexels.com/photos/16670911/pexels-photo-16670911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 2,
+        "name": "Basketball",
+        "studentNumbers": 25,
+        "img": "https://images.pexels.com/photos/10643696/pexels-photo-10643696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 3,
+        "name": "Swimming",
+        "studentNumbers": 20,
+        "img": "https://images.pexels.com/photos/346776/pexels-photo-346776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 4,
+        "name": "Tennis",
+        "studentNumbers": 15,
+        "img": "https://images.pexels.com/photos/8224687/pexels-photo-8224687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 5,
+        "name": "Volleyball",
+        "studentNumbers": 18,
+        "img": "https://images.pexels.com/photos/6180458/pexels-photo-6180458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 6,
+        "name": "Cricket",
+        "studentNumbers": 22,
+        "img": "https://images.pexels.com/photos/3628912/pexels-photo-3628912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]
