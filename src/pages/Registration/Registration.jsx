@@ -25,7 +25,7 @@ const Registration = () => {
                     .then(() => {
                         console.log('user updatated')
                         const usersInfo = { name: data.name, img:data.photoURL, email: data.email }
-                        fetch('http://localhost:5000/users', {
+                        fetch('https://summer-camp-school-server-wheat.vercel.app/users', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'

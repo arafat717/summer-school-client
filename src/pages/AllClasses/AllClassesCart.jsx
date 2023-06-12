@@ -17,7 +17,7 @@ const AllClassesCart = ({ classes }) => {
         if (user && user.email) {
             const bokking = { BookingId: _id, photo, price, sport, email: user.email }
             // console.log(bokking)
-            fetch('http://localhost:5000/selected', {
+            fetch('https://summer-camp-school-server-wheat.vercel.app/selected', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

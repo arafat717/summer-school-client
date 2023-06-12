@@ -5,7 +5,7 @@ import SectionTittle from "../../SectionTittle/SectionTittle";
 const AllClasses = () => {
     const [allclasses, setAllclasses] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/allclasses')
+        fetch('https://summer-camp-school-server-wheat.vercel.app/allclasses')
             .then(res => res.json())
             .then(data => {
                 setAllclasses(data)
