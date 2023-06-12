@@ -8,10 +8,10 @@ import useInstructor from "../../Hooks/useInstructor";
 
 
 const Dashboard = () => {
-    // const isAdmin = false;
+
     const [isAdmin] = useAdmin();
     const [isinsructor] = useInstructor();
-    // const [isusers] = useUsers();
+
     return (
         <>
             <SectionTittle sunheading={"Dashboard"}></SectionTittle>
@@ -25,28 +25,29 @@ const Dashboard = () => {
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
 
                     {
-                        isAdmin ? <ul className="menu p-4 w-80 bg-[#423e37] ">
+                        isAdmin && <ul className="menu p-4 w-80 bg-[#423e37] ">
                             <NavLink to='/dasboard/manageusers' className="m-3">Manage users</NavLink>
                             <NavLink to='/dasboard/manageclasses' className="m-3">Manage classes</NavLink>
-                        </ul>:
-                    <ul className="menu p-4 w-80 bg-[#423e37] ">
-                        <NavLink to='/dasboard/selectedclass' className="m-3">Selected course</NavLink>
-                        <NavLink to='/dasboard/enroll' className="m-3">Enrolled class</NavLink>
-                    </ul>
+                        </ul>
 
                     }
 
                     {
-                        isinsructor ? <ul className="menu p-4 w-80 bg-[#423e37] ">
-                            <NavLink to='/dasboard/manageusers' className="m-3">Add a Class</NavLink>
-                            <NavLink to='/dasboard/manageclasses' className="m-3">My Classes</NavLink>
-                        </ul> :
-                            <ul className="menu p-4 w-80 bg-[#423e37] ">
-                                <NavLink to='/dasboard/selectedclass' className="m-3">Selected course</NavLink>
-                                <NavLink to='/dasboard/enroll' className="m-3">Enrolled class</NavLink>
-                            </ul>
+                        isinsructor && <ul className="menu p-4 w-80 bg-[#423e37] ">
+                            <NavLink to='/dasboard/addclass' className="m-3">Add a Class</NavLink>
+                            <NavLink to='/dasboard/myclass' className="m-3">My Classes</NavLink>
+                        </ul>
                     }
 
+                    {
+                        isAdmin || isinsructor == false && <ul className="menu p-4 w-80 bg-[#423e37] ">
+                            <NavLink to='/dasboard/selectedclass' className="m-3">Selected course</NavLink>
+                            <NavLink to='/dasboard/enroll' className="m-3">Enrolled class</NavLink>
+                        </ul>
+
+                    }
+
+                   
 
 
 
@@ -59,7 +60,7 @@ const Dashboard = () => {
                         <li> <NavLink to="/allclasses" className="m-3"><FaShoppingCart></FaShoppingCart>Classes</NavLink></li>
                     </ul>
                 </div>
-            </div>
+            </div >
         </>
     );
 };
