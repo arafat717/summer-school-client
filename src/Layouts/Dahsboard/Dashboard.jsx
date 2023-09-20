@@ -40,7 +40,7 @@ const Dashboard = () => {
                     }
 
                     {
-                        isAdmin && isinsructor == false && <ul className="menu p-4 w-80 bg-[#423e37] ">
+                        isAdmin || isinsructor == false && <ul className="menu p-4 w-80 bg-[#423e37] ">
                             <NavLink to='/dasboard/selectedclass' className="m-3">Selected course</NavLink>
                             <NavLink to='/dasboard/enroll' className="m-3">Enrolled class</NavLink>
                         </ul>
